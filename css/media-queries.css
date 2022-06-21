@@ -113,7 +113,16 @@
     footer {
         margin-top: 300px;
     }
-    a {
+
+    a:link {
         color: blue;
-    }*
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    a:visited {
+        color: green;
+    }
 }
