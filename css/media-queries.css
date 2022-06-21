@@ -1,52 +1,97 @@
-/* screen sizes between 960px and 1200px */
-@media screen and (min-width:960px) and (max-width:1200px) {
+@media screen and (max-width:365px) {
 
+    body {
+        width: 100%;
+    }
+
+    .alert-info {
+        margin: auto;
+        background: lightblue;
+        border: 1px grey solid;
+        border-spacing: 15px 0;
+        padding: 3px;
+        height: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 5px
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    li {
+        margin: 10px auto;
+        background: lightgray;
+        padding: 10px 100px;
+        text-align: center;
+    }
+
+    .sub-section {
+        margin-bottom: 30em;
+    }
 }
 
-.alert-info {
-    display: none;
-}
+/*.alert-info {*/
+/*    display: none;*/
 
-h1 {
-    float: left;
-}
 
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
+/*}*/
 
-li {
-    padding: 1em;
-}
+/*h1 {*/
+/*    float: left;*/
+/*}*/
 
-.header-img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 100%;
-}
+/*ul {*/
+/*    list-style: none;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: flex-end;*/
+/*}*/
 
-.main {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    width: 70%
-}
+/*li {*/
 
-.sub-section {
-    float: right;
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-}
+/*}*/
 
-footer {
-    margin-top: 300px;
-}
+/*.header-img {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    width: 100%;*/
+/*    max-width: 100%;*/
+/*}*/
 
-a {
-    color: blue;
-}
+/*.main {*/
+/*    float: left;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    width: 70%*/
+/*}*/
+
+/*.sub-section {*/
+/*    float: right;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    width: 25%;*/
+/*}*/
+
+/*footer {*/
+/*    margin-top: 300px;*/
+/*}*/
+
+/*a {*/
+/*    color: blue;*/
+/*}*/
